@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="fetch">fetch</string>
+    <string name="send">send</string>
+    <string name="action_settings">Settings</string>
+
+    <item name="message_list" type="id" />
+    <item name="button3" type="id"/>
+    <item name="label" type="id"/>
+    <item name="listView" type="id" />
+</resources>

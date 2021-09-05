@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:nextFocusRight="@id/textViewId"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContact"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:autoLink="web"
+        android:gravity="start"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+
+</LinearLayout>
